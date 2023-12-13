@@ -17,9 +17,11 @@ namespace Ej23
         {
             //regular four faces figures 
             return Math.Round(basse * heigth, 3);
+
         }
         public static double CalculateFigureArea(double radius)
         {
+
             //circle
             return Math.Round(radius * radius * Math.PI, 3);
         }
