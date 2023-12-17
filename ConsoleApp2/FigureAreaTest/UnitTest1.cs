@@ -5,6 +5,7 @@ namespace FigureAreaTest
     [TestClass]
     public class FigureAreaTest
     {
+        //Squares
         [TestMethod]
         public void CalculateFigureArea_InputFourAndFour_ReturnSixteen()
         {
@@ -30,6 +31,7 @@ namespace FigureAreaTest
             Assert.AreEqual(16, result);
         }
 
+        //Circles
         [TestMethod]
         public void CalculateFigureArea_inputThreePointFour_ReturnX()
         {
@@ -52,6 +54,8 @@ namespace FigureAreaTest
             //Assert
             Assert.AreEqual(36.317, result);
         }
+
+        //Others Figures
         [TestMethod]
         public void CalculateFigureArea_inputFiveFive_ReturnX()
         {
