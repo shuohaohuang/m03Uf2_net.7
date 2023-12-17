@@ -41,6 +41,7 @@ namespace FigureAreaTest
             //Assert
             Assert.AreEqual(36.317, result);
         }
+        [TestMethod]
         public void CalculateFigureArea_inputMinusThreePointFour_ReturnX()
         {
             //Arrange
@@ -50,6 +51,55 @@ namespace FigureAreaTest
             double result = FigureArea.FigureArea.CalculateFigureArea(radius);
             //Assert
             Assert.AreEqual(36.317, result);
+        }
+        [TestMethod]
+        public void CalculateFigureArea_inputFiveFive_ReturnX()
+        {
+            //Arrange
+            int side = 5;
+            double width = 5;
+
+            //Act
+            double result = FigureArea.FigureArea.CalculateFigureArea(side,width);
+            //Assert
+            Assert.AreEqual(43.012, result);
+        }
+
+        [TestMethod]
+        public void CalculateFigureArea_inputFiveAndMinusFive_ReturnX()
+        {
+            //Arrange
+            int side = 5;
+            double width = -5;
+
+            //Act
+            double result = FigureArea.FigureArea.CalculateFigureArea(side, width);
+            //Assert
+            Assert.AreEqual(43.012, result);
+        }
+        [TestMethod]
+        public void CalculateFigureArea_inputNineAndMinusFive_ReturnX()
+        {
+            //Arrange
+            int side = 9;
+            double width = -5;
+
+            //Act
+            double result = FigureArea.FigureArea.CalculateFigureArea(side, width);
+            //Assert
+            Assert.AreEqual(154.546, result);
+        }
+        [TestMethod]
+        public void CalculateFigureArea_inputHundredAndMinusFive_ReturnX()
+        {
+            //Arrange
+            int side = 100;
+            double width = -5;
+
+            //Act
+            double result = FigureArea.FigureArea.CalculateFigureArea(side, width);
+            //Assert
+            Assert.AreEqual(19887.822, result);
         }
     }
 }

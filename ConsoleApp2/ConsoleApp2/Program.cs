@@ -87,7 +87,7 @@ namespace FigureArea
 
                     width = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine(Result, CalculateFigureArea(width, side));
+                    Console.WriteLine(Result, CalculateFigureArea(side, width));
 
                     break;
 
@@ -114,7 +114,7 @@ namespace FigureArea
 
         }
 
-        public static double CalculateFigureArea(double width, int side)
+        public static double CalculateFigureArea(int side,double width )
         {
 
             //regular figures which has more than 4 side
