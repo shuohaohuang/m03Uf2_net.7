@@ -20,7 +20,6 @@ namespace FigureArea
                 "Insert:" +
             "\n0 for a cercle" +
             "\n4 for a sqaure" +
-
             "\nany else for other figures";
 
             const string Cercle = "Insert circle's radius";
@@ -36,9 +35,9 @@ namespace FigureArea
             const string Result = "The figure's area is {0}";
 
 
-            int side = 0;
+            int side;
 
-            double width = 0, height = 0, radius = 0;
+            double width, height, radius;
 
 
 
