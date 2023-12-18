@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\argo\\Source\\Repos\\m03Uf2_net.7\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\argo\\Source\\Repos\\m03Uf2_net.7\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\argo\\Source\\Repos\\m03Uf2_net.7\\ConsoleApp2\\ConsoleApp2\\Ex23.csproj",
+      "projectName": "Ex23",
+      "projectPath": "C:\\Users\\argo\\Source\\Repos\\m03Uf2_net.7\\ConsoleApp2\\ConsoleApp2\\Ex23.csproj",
       "packagesPath": "C:\\Users\\argo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\argo\\Source\\Repos\\m03Uf2_net.7\\ConsoleApp2\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
